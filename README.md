@@ -16,14 +16,14 @@ Framework based on PageObject pattern. It contains pages that are divided into m
 
 # project directory structure
 - src
- - main/java/libertex 
- 
-   - modules 
-   - pages
-  
- - test
-   - java/libertex/tests
-   - resourses
+   - main/java/libertex 
+   
+     - modules 
+     - pages
+    
+   - test
+     - java/libertex/tests
+     - resourses
  
 # Installation and Test Execution
 ./gradle :test
