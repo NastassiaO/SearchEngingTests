@@ -12,7 +12,7 @@ Search by: Name, full name. (valid search is based on the current output of your
 - Selenide7.0.2
 - TestNG
 # Framework & Design Considerations
-Framework based on PageObject pattern. It contains pages that are divided into modules with WebElements and Methods to work with Elements. Tests are located in the test folder and are inherited from the BaseTest.class. 
+Framework based on PageObject pattern. It contains pages that are divided into modules with WebElements and Methods to work with Elements. Tests are located in the test folder and are inherited from the BaseTest.class. All tests contains description in BDD format
 
 # project directory structure
 - src
@@ -30,6 +30,8 @@ Framework based on PageObject pattern. It contains pages that are divided into m
 # Test Report
  $buildDir/test-output
 # Note :
-
+- It takes more time due to Gradle, I hadn't faced with it before and 2 years in management. It takes time to update my experience.
+- The biggest problem was finding how to verify that the corresponding tooltip was displayed.
+  
 
  
