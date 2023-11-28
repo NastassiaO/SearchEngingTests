@@ -4,8 +4,8 @@
 
     <test name="TestProject">
         <classes>
-            <class name="org.libertex.task.tests.SearchStartPageTests" />
-            <class name="org.libertex.task.tests.SearchEngineTest" />
+            <class name="libertex.tests.SearchStartPageTests" />
+            <class name="libertex.tests.SearchEngineTest" />
 
         </classes>
     </test>

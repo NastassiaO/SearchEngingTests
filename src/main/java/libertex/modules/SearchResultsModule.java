@@ -1,4 +1,4 @@
-package org.libertex.task.modules;
+package libertex.modules;
 
 import com.codeborne.selenide.ElementsCollection;
 import org.openqa.selenium.support.FindBy;

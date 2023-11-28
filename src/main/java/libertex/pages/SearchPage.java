@@ -1,9 +1,9 @@
-package org.libertex.task.pages;
+package libertex.pages;
 
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.SelenideElement;
-import org.libertex.task.modules.SearchHeader;
-import org.libertex.task.modules.SearchResultsModule;
+import libertex.modules.SearchHeader;
+import libertex.modules.SearchResultsModule;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 

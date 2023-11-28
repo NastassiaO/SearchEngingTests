@@ -1,8 +1,8 @@
-package org.libertex.task.modules;
+package libertex.modules;
 
 import com.codeborne.selenide.ElementsCollection;
 import com.codeborne.selenide.SelenideElement;
-import org.libertex.task.pages.SearchPage;
+import libertex.pages.SearchPage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.FindBys;

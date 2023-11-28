@@ -1,4 +1,4 @@
-package org.libertex.task.tests;
+package libertex.tests;
 
 import org.testng.annotations.Test;
 

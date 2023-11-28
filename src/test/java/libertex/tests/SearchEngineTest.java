@@ -1,7 +1,7 @@
-package org.libertex.task.tests;//import io.github.bonigarcia.wdm.WebDriverManager;
+package libertex.tests;//import io.github.bonigarcia.wdm.WebDriverManager;
 
 import com.codeborne.selenide.Condition;
-import org.libertex.task.pages.SearchPage;
+import libertex.pages.SearchPage;
 
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -40,7 +40,8 @@ public class SearchEngineTest extends BaseTests {
 
     @Test(priority = 2)
     public void verifyGoogleLogoLeadsOnSearchStartPage() {
-        searchPage.getHeader().clickLogo().verifyThatPageIsOpened();
+        searchPage.getHeader().clickLogo().verifyThatPageIsOpened()
+                .getInput().shouldHave(Condition.text(""));
     }
 
 }

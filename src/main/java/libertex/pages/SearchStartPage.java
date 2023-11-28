@@ -1,7 +1,7 @@
-package org.libertex.task.pages;
+package libertex.pages;
 
 import com.codeborne.selenide.*;
-import org.libertex.task.modules.PresentationModule;
+import libertex.modules.PresentationModule;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 
@@ -14,9 +14,6 @@ public class SearchStartPage {
     @FindBy(how = How.CSS, using = ".lnXdpd")
     private SelenideElement logo;
 
-
-
-
 public boolean isPopUpOpened(){
     return $(".dbsFrd").isDisplayed();
 }
@@ -24,7 +21,9 @@ public boolean isPopUpOpened(){
         logo.should(Condition.visible);
         return this;
     }
-
+    public SelenideElement getInput(){
+        return formSearch;
+    }
     public PresentationModule enterSearchValue(String searchStr){
         formSearch.click();
         formSearch.append(searchStr);

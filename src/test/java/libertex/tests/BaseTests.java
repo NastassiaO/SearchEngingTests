@@ -1,7 +1,7 @@
-package org.libertex.task.tests;
+package libertex.tests;
 
-import org.libertex.task.modules.CookiePopUp;
-import org.libertex.task.pages.SearchStartPage;
+import libertex.modules.CookiePopUp;
+import libertex.pages.SearchStartPage;
 import org.testng.annotations.BeforeMethod;
 
 import static com.codeborne.selenide.Selenide.open;
