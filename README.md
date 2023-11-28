@@ -15,13 +15,15 @@ Search by: Name, full name. (valid search is based on the current output of your
 Framework based on PageObject pattern. It contains pages that are divided into modules with WebElements and Methods to work with Elements. Tests are located in the test folder and are inherited from the BaseTest.class. 
 
 # project directory structure
--src
- -main/java/libertex 
-  -modules 
-  -pages
- -test
-  -java/libertex/tests
-  - resourses
+- src
+ - main/java/libertex 
+ 
+   - modules 
+   - pages
+  
+ - test
+   - java/libertex/tests
+   - resourses
  
 # Installation and Test Execution
 ./gradle :test
